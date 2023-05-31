@@ -1,0 +1,1566 @@
+.main-nav span:not(.material-icons) {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.material-symbols-outlined {
+	vertical-align: middle;
+}
+a {
+	text-decoration: none !important;
+}
+b {
+	font-weight: bold !important;
+}
+ul, ul li {
+	list-style-type: none !important;
+}
+html {
+	overflow-x: hidden;
+}
+body {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	overflow-x: hidden;
+	font-size: 32px;
+	color: #333;
+}
+@media(max-width:2280px) {
+	body {
+		font-size: 28px;
+	}
+}
+@media(max-width:2160px) {
+	body {
+		font-size: 24px;
+	}
+}
+@media(max-width:1800px) {
+	body {
+		font-size: 20px;
+	}
+}
+@media(max-width:1608px) {
+	body {
+		font-size: 18px;
+	}
+}
+@media(max-width:640px) {
+	body {
+		font-size: 14px;
+	}
+}
+@media(max-width:450px){
+	body{
+		font-size: 12px;
+	}
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'kontikialohajfregular','Lobster', sans-serif;
+}
+p, a, b {
+	font-family: system-ui, sans-serif;
+	font-weight: 300;
+}
+p {
+	font-size: 1em;
+	font-weight: 300;
+}
+@media(max-width:1440px) {
+	p {
+		font-size: 1.15em;
+	}
+}
+@media(max-width:600px) {
+	p {
+		font-size: 1.25em;
+	}
+}
+@media(max-width:400px) {
+	p {
+		font-size: 1.75em;
+	}
+}
+#bop-right {
+	right: -10em;
+	transform: rotate(-45deg);
+	top: -1em;
+}
+#masthead {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 998;
+	width: 100%;
+	border-top: 0.5em solid #f3b232;
+	background-image: url("../images/design/brownpetroglyphs.jpg");
+	background-size: 45em;
+	box-shadow:0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+}
+#masthead ul {
+	width: 90%;
+	display: table;
+	margin: 0 auto;
+}
+#masthead li {
+	vertical-align: middle;
+	display: table-cell;
+}
+.nav-left {
+	text-align: right;
+}
+.nav-right {
+	text-align: left;
+}
+.nav-left a, .nav-right a {
+	color: white;
+	font-size: 1em;
+	text-transform: capitalize;
+	border-bottom: 0.1em solid rgba(0, 0, 0, 0);
+	transition: 0.3s;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0.75em;
+}
+#logo {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 12em;
+}
+#logo img {
+	width: 100%;
+}
+.nav-left a:hover, .nav-right a:hover {
+	border-bottom: 0.1em solid white;
+}
+#bop-left, #bop-right {
+	position: absolute;
+	width: 22em;
+	z-index: 999;
+}
+#bop-left {
+	transform: rotate(45deg);
+	left: -9em;
+	top: -2em;
+}
+.yellow-button, .red-button, .blue-button, .white-button {
+	display: inline-block;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	padding: 2em;
+	cursor: pointer;
+	border-radius: 10px;
+	margin: 2em;
+	transition: 0.3s;
+	font-size: 0.65rem;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.yellow-button span:not(.material-symbols-outlined), .red-button span:not(.material-symbols-outlined), .blue-button span:not(.material-symbols-outlined), .white-button span:not(.material-symbols-outlined) {
+	font-size: 1.85em;
+	font-family: "kontikialohajfregular",'Lobster', sans-serif;
+	text-transform: capitalize;
+}
+.yellow-button span, .red-button span, .blue-button span, .white-button span {
+	font-size: 1.85em;
+}
+.yellow-button {
+	background-color: #F9D365;
+	border: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	border-bottom: 0.5em solid #c29f3b;
+	border: ;
+}
+.yellow-button:hover {
+	background-color: white;
+	border-bottom: 0.5em solid gainsboro;
+}
+.yellow-button span {
+	color: #9C0000;
+	text-transform: capitalize;
+	display: inline-block;
+	vertical-align: middle;
+}
+.yellow-button .material-symbols-outlined {
+	color: #9C0000;
+}
+.yellow-button {
+	opacity: 1;
+}
+.yellow-button:disabled {
+	opacity: 0.3;
+	cursor: not-allowed;
+}
+.white-button {
+	background-color: white;
+	color: #272636;
+	border-bottom: 0.5em solid #d6e3ee;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.white-button span {
+	font-family: "kontikialohajfregular","Lobster",sans-serif;
+}
+.white-button:hover {
+	background-color: aliceblue;
+	border-bottom: 0.5em solid skyblue;
+}
+.blue-button {
+	display: inline-block;
+	border: 0em solid rgba(0, 0, 0, 0);
+	background-color: #006c9c
+}
+.blue-button span {
+	color: white;
+}
+.red-button {
+	background-color: #f26f21;
+	border: 0em solid rgba(0, 0, 0, 0);
+	border-bottom: 0.5em solid #bd4802;
+}
+.red-button span {
+	color: white;
+}
+.red-button:hover {
+	border-bottom: 0.5em solid #f3b232;
+	background-color: #F9D365;
+
+}
+.red-button:hover span {
+		color: #bd4802;
+}
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 100%;
+	/* The width is the width of the web page */
+}
+#map {
+	border-top: 1.25em solid #f3b232;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+}
+#sealifeparkmap {
+	width: 100%;
+	height: 20em;
+	position: relative;
+	background: url("/designs/sealifeparkluau/images/design/sealifepark-map.png");
+	overflow: hidden;
+}
+#sealifeparkmap a {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	/* background-color: black; */
+	z-index: 1;
+}
+#sealifeparkmap a img {
+	width: 100%;
+	opacity: 0.4;
+}
+#sealifeparkmap a b {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	text-transform: capitalize;
+	text-shadow: 0em 0em 0.5em black;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+footer {
+	background: url("../images/design/brownpattern.png");
+	background-size: 42em;
+	background-position: top;
+}
+footer ul {
+	background: rgba(46, 27, 27, 0.85);
+	padding: 2em;
+	display: table;
+	width: 100%;
+}
+footer ul li {
+	display: table-cell;
+	width: 33.3%;
+	vertical-align: top;
+	padding: 2em;
+	text-align: center;
+}
+footer a {
+	color: white;
+	text-transform: capitalize;
+	line-height: 2em;
+}
+footer a img {
+	width: 5em;
+	display: block;
+	margin: 0 auto;
+}
+footer aside {
+	color: white;
+	background: black;
+	padding: 0.5em;
+	text-align: center;
+	color: slategrey;
+}
+footer h4 {
+	color: gold;
+	font-size: 1.5em;
+}
+.social {
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+	width: 8em;
+}
+.social a {
+	display: table-cell;
+	width: 25%;
+	height: 2em;
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;
+	padding: 1em;
+	border: 0.25em solid #311e1d;
+}
+.social a img {
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+#social-fb {
+	top: 0;
+}
+#social-tw {
+	top: -2em;
+}
+#social-yt {
+	top: -4em;
+}
+#social-ig {
+	bottom: 0;
+}
+.top-container {
+	width: 100%;
+	height: 40em;
+}
+#container-header {
+	height: 38em;
+	overflow: hidden;
+	background-color: #093459;
+	position: relative;
+}
+#container-header.container.container-short {
+	height: 28em;
+}
+#container-header img {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	opacity: 0.3;
+	z-index: 1;
+	width: 100%;
+}
+#container-header header {
+	position: absolute;
+	color: white;
+	padding: 2em;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 100%;
+	max-width: 45em;
+	border-top: 0.15em solid #ffffff94;
+	border-bottom: 0.15em solid #ffffff94;
+}
+#container-header h2 {
+	font-family: 'kontikialohajfregular',"Lobster",sans-serif;;
+	font-size: 3em;
+	text-transform: capitalize;
+}
+#container-header h3, #container-header h3 b{
+	font-family: "kontikialohajfregular","Lobster",sans-serif;
+	font-weight: normal;
+	text-shadow: 0em 0em 1em black;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-transform: capitalize;
+}
+@media(max-width:1075px) {
+	#container-header img {
+		width: auto;
+		height: 100%;
+	}
+}
+#callin-desktop{
+ position: absolute;
+ right: 2.5em;
+ top: 2.5em;
+ z-index: 998;
+ overflow: hidden;
+	text-align: center;
+	color: white;
+	font-size: 1.05em;
+	background-color:rgba(0,0,0,0.75);
+	border-radius: 50%;
+	border: 0.25em solid skyblue;
+}
+#callin-desktop p{
+		font-family: 'kontikialohajfregular' !important;
+	padding: 2em 1.15em 2em 1.15em;
+}
+#callin-desktop span{
+display: block;
+	font-size: 2em;
+}
+#phone{
+  position: relative;
+  width: 64%;
+  margin: 0 auto;
+}
+
+#phone a {
+  color: gold;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 1em;
+}
+
+/* |==========================================================================|  */
+
+/* ||||||||||||||||||||| mobile styling and media queries |||||||||||||||||||||  */
+
+/* |==========================================================================|  */
+#masthead-mobile {
+	background-image: url("../images/design/brownpetroglyphs.jpg");
+	width: 100%;
+	z-index: 999;
+	display: block;
+	background-size: 19em;
+	border-top: 1em solid #f3b232;
+	height: 8em;
+	position: fixed;
+	text-align: center;
+}
+#masthead-mobile {
+	display: none;
+}
+#menu-btn {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 1em;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+#mobile-phone{
+	background: none;
+	border: none;
+	position: absolute;
+	left: 1em;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	display: none;
+	font-size: 0.75em;
+}
+@media(max-width:400px){
+	#menu-btn{
+		font-size: 0.95em;
+		transform:none;
+	}
+}
+#masthead-mobile .nav-right button {
+	background: none;
+	border: none;
+	position: absolute;
+}
+#mobile-logo {
+	width: 12em;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+}
+#mobile-logo img {
+	width: 100%;
+}
+#masthead-mobile span.material-symbols-outlined {
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 0em 0em 0.15em #0000009e;
+}
+#mobile-menu {
+	background-color: #000000cf;
+	width: 100%;
+	position: fixed;
+	top: 8em;
+	height: 100%;
+	z-index: 999;
+}
+#mobile-menu.mobile-menu {
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: 0.3s;
+}
+#mobile-menu a {
+	color: white;
+	display: block;
+	text-align: right;
+	font-size: 1.25em;
+	padding: 1em;
+	text-transform: capitalize;
+}
+#mobile-menu.mobile-menu.active {
+	transform: scaleY(1);
+}
+@media(max-width:1080px) {
+	#masthead {
+		z-index: 999;
+	}
+	#bop-left, #bop-right {
+		z-index: 998;
+	}
+	#bop-right, #bop-left {
+		top: 3em;
+	}
+}
+@media (max-width:1000px) {
+	#mobile-phone{
+		display: block;
+	}
+	#phone{
+		display: block;
+	}
+	#masthead {
+		display: none;
+	}
+	#masthead-mobile {
+		display: block;
+	}
+	.nav-left, .nav-right {
+		text-align: center;
+		width: 50%;
+		display: table-cell;
+		position: relative;
+	}
+	.nav-left {
+		text-align: left;
+	}
+	.nav-left img {
+		height: 4em;
+	}
+	.nav-right {
+		text-align: right;
+	}
+	.nav-right a {
+		font-size: 1.5em;
+		display: block;
+		text-align: right;
+	}
+  footer ul li {
+  display: block;
+  width: 100%;
+  font-size: 1.25em;
+  }
+}
+@media(max-width:800px){
+  #bop-left, #bop-right {
+    display: none;
+  }
+
+}
+@media (max-width:450px) {
+	#mobile-menu a {
+		font-size: 1.33em;
+	}
+	#mobile-menu {
+		width: 100%;
+	}
+}
+@media(max-width:400px) {
+	#logo {
+		width: 7em;
+	}
+	p {
+		font-size: 1.6em;
+	}
+	.red-button span {
+		font-size: 1.25em;
+	}
+	#mobile-menu a {
+		font-size: 1.33em;
+		line-height: 1em;
+	}
+	#mobile-logo {
+		width: 12em;
+	}
+	#masthead-mobile {
+		padding: 0;
+	}
+	#menu-btn {
+		top: 1.5em;
+	}
+}
+/* |==========================================================================| */
+
+/* ||||||||||||||||||||| misc content styling ||||||||||||||||||||||||||||||||| */
+
+/* |==========================================================================| */
+
+#content-container {
+	position: relative;
+	width: 100%;
+	padding: 10em;
+	background-size: 12em;
+	background-position: center;
+	background-image: url("../images/design/59243970_671404636627996_1962563358624317440_n.jpg");
+}
+#content-container.alt {
+	background-image: url("../images/design/whitepetroglyph.png");
+  background-position: top;
+	background-size: 50em;
+}
+#content-container h3 {
+	font-size: 2em;
+	font-weight: 100;
+	text-transform: capitalize;
+}
+.content {
+	text-align: center;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	padding: 3em;
+	background-color: white;
+}
+.content p {
+	padding: 1em;
+	text-align: center;
+	line-height: 2em;
+}
+.container-alt img {
+	opacity: 0.7;
+}
+@media(max-width:940px) {
+	#content-container {
+		padding: 8em 2em;
+	}
+	.content {
+		padding: 1em;
+	}
+}
+#container-first {
+	width: 100%;
+	padding: 10em 10em 2.5em 10em;
+	position: relative;
+	overflow: hidden;
+}
+#container-first::before {
+	content: " ";
+	position: fixed;
+	z-index: -1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../images/photos/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+}
+#top-gallery {
+	width: 100%;
+	max-width: 1400px;
+	padding: 1.5em;
+	background-size: contain;
+	background-position: center;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	position: relative;
+	background-image: url("../images/design/beigepetroglyph.png");
+  background-size: 32em;
+}
+#top-gallery-gallery {
+	width: 100%;
+	height: 28em;
+	position: relative;
+	background-color: black;
+	overflow: hidden;
+}
+.slide {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	background-size: cover;
+	background-position: center;
+	transition: 2s;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.slide.active {
+	opacity: 0.7;
+}
+#galleryPrev, #galleryNext {
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0em solid rgba(0, 0, 0, 0);
+	z-index: 2;
+}
+#galleryPrev .material-symbols-outlined, #galleryNext .material-symbols-outlined {
+	color: white;
+	font-size: 6em;
+}
+#galleryPrev {
+	left: 1em;
+}
+#galleryNext {
+	right: 1em;
+}
+#galleryPrev, #galleryNext {
+	opacity: 0;
+	transition: 0.5s;
+}
+#gallery-content:hover #galleryPrev, #gallery-content:hover #galleryNext {
+	opacity: 1;
+}
+#gallery-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	padding: 16em 1.5em 2em 1.5em;
+	left: 50%;
+	top: 50%;
+}
+#container-first section {
+	text-align: center;
+	padding: 0.5em;
+	width: 100%;
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+}
+#container-first h2 {
+	text-transform: capitalize !important;
+	color: white;
+	font-size: 4rem;
+	line-height: 1em;
+	text-shadow: 0em 0em 1em black;
+	width: 65%;
+	padding: 0.5em;
+	text-align: justify;
+	margin-top: -1em;
+}
+#container-first h2 b {
+	font-family: 'kontikialohajfregular','Lobster', sans-serif, monospace;
+	text-transform: capitalize !important;
+	font-size: 1.25em;
+	line-height: 1em;
+}
+#booknow {
+	position: absolute;
+	right: 0em;
+	bottom: 0em;
+	font-size: 0.8em;
+}
+/*==============================*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|*/
+
+/*==============================*/
+
+#container1half {
+	position: relative;
+	width: 100%;
+	padding: 0em 10em 0em 10em;
+}
+#header-aside {
+	border: 1.25em solid #f3b232;
+	overflow: hidden;
+	display: inline-block;
+	height: 25em;
+	position: relative;
+	width: 100%;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	background-color: black;
+}
+#container1half.checkpoint .banner {
+	transform: scale(1);
+	transition: 1s;
+}
+#container1half.checkpoint.active .banner {
+	transform: scale(1.2);
+}
+#header-aside .banner {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+}
+#header-aside h2 {
+	position: absolute;
+	z-index: 3;
+	color: #f3b232;
+	font-weight: bold;
+	left: 1em;
+	top: 20%;
+	font-size: 3em;
+}
+#header-aside p {
+	position: absolute;
+	color: #f2dfcc;
+	top: 40%;
+	z-index: 3;
+	left: 2em;
+	width: 17em;
+	font-size: 1.3em;
+}
+#header-aside .white-button {
+	position: absolute;
+	bottom: 2em;
+	left: 2em;
+}
+#palm-left, #palm-right {
+	position: absolute;
+	height: 15em;
+	display: none;
+}
+#palm-left {
+	left: -2em;
+	bottom: -6em;
+	transform: scaleY(-1);
+}
+#palm-right {
+	transform: scaleX(-1) scaleY(-1);
+	bottom: -6em;
+	right: -2em;
+}
+/* #container-second section {
+	background-image: url("../images/design/tapaCloth.jpg");
+	padding: 4em;
+	box-shadow: 0em 0em 2em #0000008c;
+	background-size: 28em;
+  margin-bottom: 1em;
+}
+#container-second section p {
+	background:rgba(255,255,255,0.8);
+	padding: 3em;
+	line-height: 3em;
+}
+@media (max-width:767px) {
+  #container-second section {
+	padding: 0;
+  }
+} */
+
+/* |==========================================================================| */
+
+/* ||||||||||||||||||||| why book with us? |||||||||||||||||||||||||||||||||||| */
+
+/* |==========================================================================| */
+
+#book-with-us {
+	background: linear-gradient(180deg, rgba(2, 0, 36, 0.6474790599833684) 0%, rgba(0, 212, 255, 0) 100%);
+	padding: 4em;
+}
+#book-with-us h3 {
+	margin: 0 auto;
+	font-size: 2.5em;
+	text-align: center;
+	text-shadow: 0em 0em 1em black;
+	color: #f9d365;
+	font-weight: 100;
+	text-transform: capitalize;
+}
+#book-with-us ul {
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+}
+#book-with-us .material-symbols-outlined {
+	color: white;
+	font-size: 4em;
+	display: inline-block;
+	vertical-align: middle;
+	text-shadow: 0em 0em 1em black;
+}
+#book-with-us b {
+	display: inline-block;
+	font-size: 1.5em;
+	color: white;
+	text-transform: capitalize;
+	text-shadow: 0em 0em 1em black;
+}
+#book-with-us li {
+	display: table-cell;
+	text-align: center;
+	padding: 3em;
+}
+#book-with-us p {
+	color: white;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-shadow: 0em 0em 1em black;
+}
+footer a:hover {
+	color: gold;
+}
+/*===== youtube container =====*/
+#yt-video-container-a {
+	border: 1.25em solid #b8e4fa;
+	background-color: #6daec2;
+	width: 100%;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	overflow: hidden;
+	z-index: 3;
+	position: relative;
+	height: 20em;
+	background-image: url("../images/photos/alohakailuau-youtubethumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#yt-video-container-a img{
+	display: none !important;
+}
+#yt-video-container-a .material-symbols-outlined {
+	color: white;
+	font-size: 5em;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#yt-video-container-a iframe {
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+#container-second {
+	width: 100%;
+	position: relative;
+	background-position: top;
+	background-image: url("../images/design/whitepetroglyphLayered.png");
+	/* background-size: 100%;
+	*/ margin-top: 2em;
+}
+#container-second.sealife {
+	margin-top: 0;
+	background-image: url("../images/design/bluepetroglyph.png");
+	margin-top: 0;
+	padding-top: 2em;
+	background-position: top;
+  background-repeat: repeat;
+}
+/*=====*/
+
+#continued-reading {
+	width: 100%;
+	position: relative;
+	background-size: 42em;
+	background-position: top;
+	background-image: url("../images/design/bluepetroglyph.png");
+	padding: 5em 10em;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+}
+#continued-reading ul {
+	display: table;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+#continued-reading ul li {
+	width: 33.3%;
+	text-align: center;
+	vertical-align: top;
+	display: table-cell;
+	padding: 3em;
+}
+#continued-reading ul li p {
+	text-align: justify;
+	color: white;
+	line-height: 2em;
+}
+#continued-reading ul li img {
+	width: 90%;
+	max-width: 5em;
+}
+/*====*/
+
+.reading-container {
+	padding: 0em 10em;
+	width: 100%;
+	min-height: 20em;
+}
+.sealife .reading-container {
+	padding: 5em 10em;
+	width: 100%;
+	min-height: 20em;
+}
+.reading-container ul {
+	display: table;
+	width: 100%;
+}
+.reading-container li {
+	display: table-cell;
+	width: 50%;
+	position: relative;
+	vertical-align: top;
+	padding: 0em 2em 0em 0em;
+}
+.reading-container li p {
+	line-height: 2em;
+	margin-top: 6em;
+	margin-bottom: 5em;
+}
+.sealife .reading-container li p {
+	line-height: 2em;
+	margin-bottom: ;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	margin: 3em 0em;
+}
+.reading-container h3 {
+	color: white;
+	font-size: 4.5em;
+	text-transform: capitalize;
+	line-height: 1;
+	text-shadow: 0em 0em 0.15em #0000005e;
+	font-weight: 100;
+	z-index: 3;
+}
+.reading-container h3 span {
+	display: block;
+	font-size: 0.75em;
+}
+.reading-container h4 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #9d090e;
+}
+.sealife .reading-container h4 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #f9d365;
+}
+#container-third {
+	width: 100%;
+	position: relative;
+}
+#schedule {
+	background-color: #ffe4b8;
+	padding: 3em 10em 3em 3em;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	max-width: 42em;
+	margin: 2em auto;
+	background-image: url("../images/design/pineapple2.png");
+	background-size: 10em;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 90%;
+}
+#schedule h3 {
+	color: #9d000c;
+	font-size: 2em;
+	line-height: 1em;
+	font-family: "kontikialohajfregular","Lobster",sans-serif;
+}
+#schedule section {
+	padding-top: 0.5em;
+}
+#container-third h2 {
+	color: gold;
+	text-transform: capitalize;
+	font-size: 3em;
+	width: 100%;
+	text-align: center;
+	text-shadow: 0em 0em 0.25em black;
+	padding: 1em;
+}
+.packages-container, .dinner-container {
+	width: 100%;
+	background-image: url("../images/design/bluepetroglyph.png");
+	background-position: top;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	position: relative;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-size: 48em;
+}
+.dinner-container table {
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	border: 0.5em solid white;
+}
+.dinner-container th, .dinner-container tr {
+	text-align: left;
+	padding: 1em;
+	border-bottom: 2px solid aliceblue;
+}
+.package {
+	text-align: center;
+	background: white;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+	position: relative;
+	margin: 1em auto;
+	display: table;
+	max-width: 50em;
+	width: 90%;
+}
+.package section {
+	padding: 1em;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 50%;
+}
+.package li {
+	width: 33%;
+	display: table-cell;
+	padding: 1em;
+}
+.package h3 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+.package img {
+	width: 9em;
+	border-radius: 50%;
+	border: 0.25em solid white;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+}
+.package ul {
+	display: table;
+	width: 100%;
+}
+.package a {
+	text-transform: capitalize;
+	display: inline-block;
+	border-radius: 0.5em;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.package article {
+	padding: 2em 0em 3em 0em;
+}
+.package a span {
+	font-size: 1.33em;
+}
+#packages-lower {
+	display: table;
+	padding: 5em;
+	background-image: url("../images/design/whitepetroglyph.png");
+  background-size: 40em;
+}
+#packages-lower li {
+	display: table-cell;
+	width: 50%;
+	padding: 1em;
+	vertical-align: middle;
+	text-align: center;
+}
+#packages-lower li img {
+	width: 100%;
+	max-width: 30em;
+}
+#seating-aside {
+	display: block;
+	width: 100%;
+}
+#seating-aside .material-symbols-outlined {
+	font-size: 1em;
+}
+#seating-aside h3 {
+	font-size: 2.5em;
+	text-transform: capitalize;
+	color: #0c6b9e;
+	text-align: center;
+}
+#seating-aside p {
+	line-height: 2em;
+	max-width: 40em;
+	width: 90%;
+	margin: 0 auto;
+}
+#seating-aside p span {
+	font-weight: bold;
+}
+@media(max-width:900px){
+	#packages-lower {
+	display: block;
+	/*! padding: 0; */
+}
+#packages-lower li {
+	display: block;
+	width: 100%;
+}
+.package section{
+	display: block;
+	width: 100%;
+}
+}
+@media(max-width:500px){
+	#packages-lower{
+	  padding: 5em 0em;
+	}
+}
+/*--------------------------------*/
+#palm-left-2, #palm-right-2 {
+	display: none;
+}
+#container-third {
+	width: 100%;
+	position: relative;
+}
+#misc-content {
+	display: block;
+	width: 100%;
+	background-size: 12em;
+}
+#misc-content li {
+	width: 90%;
+	max-width: 60em;
+	display: block;
+	position: relative;
+	background-color: black;
+	overflow: hidden;
+	height: 32em;
+	margin: 2em auto;
+	box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.33);
+}
+#misc-content li img {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: scale(1) translate(-50%, -50%);
+	transform-origin: center;
+	opacity: 0.5;
+	transition: 0.3s;
+	z-index: 2;
+	cursor: pointer;
+}
+#misc-content li article {
+	position: absolute;
+	bottom: 1em;
+	z-index: 2;
+	padding: 1em 5em;
+	max-width: 40em;
+	text-align: center;
+	color: white;
+}
+#misc-content li article h3 {
+	font-size: 2em;
+	text-transform: capitalize !important;
+	text-shadow: 0em 0em 0.5em black;
+	line-height: 1em;
+}
+#misc-content li article p {
+	font-size: 1.25em;
+	text-shadow: 0em 0em 0.5em black;
+  line-height: 2em;
+}
+#misc-content .white-button {
+	font-size: 0.8em;
+}
+@media (max-width:1262px) {
+	#container-first {
+		padding: 12em 4em 4em 4em;
+	}
+	#container1half {
+		position: relative;
+		width: 100%;
+		padding: 0em 4em 0em 4em;
+	}
+	.reading-container {
+		padding: 0em 5em 3em 5em;
+	}
+	#continued-reading {
+		padding: 5em 0em;
+	}
+	#continued-reading ul {
+		display: block;
+	}
+	#continued-reading ul li {
+		width: 45%;
+		display: inline-block;
+	}
+}
+@media(max-width:1235px) {
+	.reading-container {
+		padding: 0em 3em;
+	}
+	.reading-container li p {
+		line-height: 2em;
+		margin-top: 3em;
+		margin-bottom: 2em;
+	}
+}
+@media(max-width:1150px) {
+	/* #container-second {
+		background-position: 0 10%;
+		background-repeat: no-repeat;
+	} */
+}
+@media(max-width:1100px){
+	.sealife .reading-container {
+	padding: 5em 2em;
+  }
+}
+@media(max-width:1080px) {
+	#header-aside .banner {
+		width: auto;
+		height: 100%;
+		opacity: 0.8;
+	}
+}
+#booknow-mobile {
+	display: block;
+	margin: 0;
+	border-radius: 0;
+	box-shadow: none;
+	text-align: center;
+	font-size: 1em;
+}
+#booknow-mobile {
+	display: none;
+}
+@media(max-width:1030px){
+  #container-first {
+	padding: 10em 2em 2em 2em;
+  }
+  #container-first h2 {
+	font-size: 3rem;
+	margin-top: 0;
+  }
+  #booknow {
+	font-size: 0.75rem;
+  }
+  #container1half {
+	padding: 0em 2em 0em 2em;
+  }
+  .reading-container {
+	padding: 0em 2em;
+  }
+}
+@media(max-width: 1000px){
+  #galleryPrev, #galleryNext {
+	opacity: 1;
+	transition: 0s;
+	font-size: 1em;
+  }
+  #misc-content li img {
+	width: auto;
+	height: 100%;
+  }
+}
+@media(max-width:900px){
+	.sealife .reading-container ul{
+	  transform: scaleY(-1);
+		display: block;
+		padding: 1em;
+  }
+	.sealife .reading-container ul li{
+	  transform: scaleY(-1);
+		display: block;
+		width: 100%;
+		text-align: center;
+  }
+   .sealife .reading-container ul li h3{
+	   color: white;
+  }
+}
+@media(max-width:800px) {
+	#booknow {
+		display: none;
+	}
+	#booknow-mobile {
+		display: block;
+	}
+	#container-first {
+		padding: 8em 0em 0em 0em;
+	}
+	#container1half {
+		padding: 0;
+		margin-bottom: 0;
+		height: 24em;
+		box-shadow: none;
+	}
+	#header-aside {
+		height: 100%;
+		box-shadow: none;
+	}
+	#container-first h2 {
+		width: 100%;
+		font-size: 3em;
+		padding: 0.5em;
+      text-shadow: none;
+	}
+  .reading-container ul {
+  	display: block;
+  	transform: scaleY(-1);
+  	padding: 4em 0em;
+  }
+	.reading-container ul li {
+		transform: scaleY(-1);
+	}
+	.container.sealife .reading-container ul{
+		padding: 0em 2em;
+	}
+	.container.sealife .reading-container li{
+		margin-bottom: 3em;
+	}
+	.container:not(.sealife) .reading-container li p {
+		line-height: 2em;
+		margin-top: 0;
+		margin-bottom: 0em;
+		padding-bottom: 2em;
+		padding-top: 2em;
+	}
+	.container.sealife .reading-container li p{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.container:not(.sealife) .reading-container h3 {
+		color: #9c0000;
+		text-shadow: none;
+	}
+  .reading-container li p {
+  	line-height: 2em;
+  	margin-top: 0;
+  	margin-bottom: 0em;
+  	padding-bottom: 2em;
+  	padding-top: 2em;
+  }
+  .reading-container h3 {
+  	color: #9c0000;
+  	text-shadow: none;
+  }
+	.reading-container li {
+		display: block;
+		width: 100%;
+		position: relative;
+		padding: 0;
+		text-align: center;
+	}
+	#continued-reading ul li {
+		width: 100%;
+		display: block;
+		max-width: 27em;
+		margin: 0 auto;
+	}
+	#container-second:not(.sealife) {
+		width: 100%;
+		position: relative;
+		background-position: top;
+		background-image: url("../images/design/whitepetroglyph.png");
+		background-size: 100%;
+		margin-top: 0;
+		padding-top: 4em;
+	}
+  #misc-content li {
+	width: 100%;
+	height: 32em;
+	margin: 0;
+	box-shadow: none;
+  }
+  #schedule {
+  max-width: 100%;
+  background-size: 10em;
+  width: 100%;
+  margin: 0;
+  padding: 4em;
+}
+}
+
+@media(max-width:640px){
+  #container1half {
+  	height: 30em;
+  }
+  .slide {
+	height: 100%;
+  width: auto;
+  }
+  #container-first h2 {
+  text-align: center;
+  }
+  #header-aside h2 {
+	width: 100%;
+	text-align: center;
+	left: 0;
+  }
+  #header-aside p {
+	top: 45%;
+	left: 0;
+	width: 100%;
+	font-size: 1.75em;
+	text-align: center;
+	color: white;
+	padding: 0em 2em;
+  }
+  #header-aside .white-button {
+	bottom: 0;
+	left: 45%;
+	transform: translateX(-50%);
+	right: 0;
+  }
+}
+@media(max-width:450px){
+	.yellow-button span:not(.material-symbols-outlined), .red-button span:not(.material-symbols-outlined), .blue-button span:not(.material-symbols-outlined), .white-button span:not(.material-symbols-outlined) {
+	font-size: 2em;
+  }
+	#misc-content li article h3 {
+	font-size: 3em;
+  }
+	#misc-content li article p {
+	font-size: 1.25em;
+	line-height: 2em;
+  }
+	#misc-content .white-button {
+	font-size: 0.8em;
+  }
+}
+#dateInput {
+	position: absolute; 
+	z-index: -1;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	opacity: 0; 
+}

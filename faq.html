@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>aloha kai luau</title>
+        <meta name="viewport" content="user-scalable = yes, width=320, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/top-container.css">
+    <link rel="stylesheet" href="css/second-container.css">
+    <link rel="stylesheet" href="css/third-container.css">
+    <link rel="stylesheet" href="css/fourth-container.css">
+    <link rel="stylesheet" href="css/checkpoint.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lob:wght@200&family=Lato:wght@300;900&display=swap" rel="stylesheet">
+    <script src="js/jquery.lazy.min.js"></script>
+  </head>
+  <body>
+    <div id="masthead">
+      <ul>
+        <li class="nav-left"><a href="index.html">home</a><a href="packages.html">reservations</a><a href="dinner.html">dinner menu</a></li>
+        <li><a href="index.html" id="logo"><img src="images/design/alohakailogo.png" alt=""></a></li>
+        <li class="nav-right"> <a href="sealife.html">sealife park</a> <a href="faq.html">faq</a> <a href="contact.html">contact</a><a href="#">cart</a></li>
+      </ul>
+    </div>
+    <!-- ================================= -->
+    <!-- ||||||||||||||||||||||||||||||||| -->
+    <!-- ================================= -->
+    <div id="masthead-mobile">
+          <a href="https://colemanrpatrick.github.io/aloha-kai-luau" id="mobile-logo"><img src="images/design/alohakailogo.png" alt=""></a>
+          <button type="button" name="button" id="menu-btn" class="menu-btn" onclick="idToggle('mobile-menu','active')">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <div id="mobile-menu" class="mobile-menu">
+            <a href="index.html">home</a>
+            <a href="packages.html">reservations</a>
+            <a href="dinner.html">dinner menu</a>
+            <a href="sealife.html">sealife park</a>
+            <a href="faq.html">faq</a>
+            <a href="contact.html">contact</a>
+            <a href="#">cart</a>
+          </div>
+    </div>
+    <img id="bop-left" src="images/design/birdsofparadise.png" alt="">
+    <img id="bop-right"  src="images/design/birdsofparadise.png" alt="">
+    <!-- ================================= -->
+    <!-- ||||||||||||||||||||||||||||||||| -->
+    <!-- ================================= -->
+<div class="container container-short" id="container-header">
+    <!-- class="header-right" class="header-left" class="header-center" -->
+    <header class="header-center">
+      <h2 style="color:white">frequently asked questions</h2>
+    </header>
+    <img src="images/photos/performers.jpeg" alt="">
+</div>
+<!-- ================================= -->
+<!-- ||||||||||||||||||||||||||||||||| -->
+<!-- ================================= -->
+<style media="screen">
+.content-column {
+	width: 100%;
+	padding: 2em 5em;
+	position: relative;
+	background-size: 12em;
+	background-position: top;
+	background-image: url("images/design/59243970_671404636627996_1962563358624317440_n.jpg");
+	box-shadow: 0em 0.15em 1em rgba(0,0,0,0.6);
+}
+.accordion{
+	width: 100%;
+  background-color: white;
+}
+.accordion .tab{
+	width: 100%;
+}
+.accordion .tab header {
+	padding: 2.25em;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: "Lato";
+	font-weight: 100;
+	background: #0c7ccd;
+	border-bottom: 2px solid aliceblue;
+	color: white;
+	cursor: pointer;
+  transition: 0.3s;
+}
+.accordion .tab.active header{
+  color:#0c7ccd;
+  background: gold;
+}
+.accordion .tab .content {
+	width: 100%;
+	padding: 3em;
+	text-align: center;
+	transform-origin: top;
+}
+.accordion .tab .content p {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 2.5em;
+	max-width: 40em;
+	margin: 0 auto;
+	width: 90%;
+}
+.accordion .tab .content{
+	display: none;
+}
+@-webkit-keyframes fadeIn {
+	0%{ transform: scaleY(0) }
+	100%{ transform: scaleY(1)}
+}
+@-moz-keyframes fadeIn {
+	0%{ transform: scaleY(0) }
+	100%{ transform: scaleY(1)}
+}
+.accordion .tab.active .content{
+	display: block;
+  height: auto;
+	-webkit-animation: fadeIn 0.3s ease-out;
+	-moz-animation: fadeIn 0.3s ease-out;
+}
+</style>
+    <div class="content-column">
+      <ul class="accordion">
+        <li class="tab">
+          <header  onclick="tabToggle(this,'tab')">Hours of Operation</header>
+          <article class="content">
+            <p>
+              Sunday | Monday | Tuesday | Wednesday | Thursday | Friday<br/>
+              Check-in begins at 4:30 PM, Luau grounds open at 5:15 PM<br/>
+              <b>Sea Life Park Hawaii</b><br/>
+              Daily, 10:00 AM - 4:00 PM
+            </p>
+          </article>
+        </li>
+        <li class="tab">
+          <header  onclick="tabToggle(this,'tab')">What happens if it rains?</header>
+          <article class="content">
+            <p>We know many people have limited time here in Hawaii to experience a Luau. For this reason, the Luau runs in rain or shine. Our reservations department will contact you if there is a cancellation due to weather. See cancellation policy.</p>
+          </article>
+        </li>
+        <li class="tab">
+          <header  onclick="tabToggle(this,'tab')">Can I use my admission to Sea Life Park before my luau?</header>
+          <article class="content">
+            <p>You can use your included admission to Sea Life Park the same-day as your Luau, or within 1 year from your Luau date. Your admission tickets to Sea Life Park will be included with your Luau confirmation email. Admission is non-transferrable and must match the name on your reservation.<b><a href="https://www.sealifeparkhawaii.com/">Click Here for more info.</a></b></p>
+          </article>
+        </li>
+        <li class="tab">
+          <header onclick="tabToggle(this,'tab')">Can I sit with someone in a separate reservation?</header>
+          <article class="content">
+            <p>You can enter the <b>last names</b> of any parties or separate reservations that you are joining at the Luau if you would like to be seated together. If you have already made your reservation and need to add this request, please email us at <b><a href="mailto:#">info@alohakailuau.com</a></b> or send us a live chat message here on the site!</p>
+           </article>
+        </li>
+        <li class="tab">
+          <header onclick="tabToggle(this,'tab')">Disabilities or Special Accommodations</header>
+          <article class="content">
+            <p>Our goal is to make all of our guests comfortable! If you require special accommodations, have a wheelchair or have any other special requests - please contact us at <b><a href="tel:+1808963800">(808) 926-3800</a></b> at least 48 hours in advance of your Luau date. Sea Life Park and the Luau grounds are ADA accessible.</p>
+          </article>
+        </li>
+        <li class="tab">
+          <header onclick="tabToggle(this,'tab')">How do I book with my Go City Pass?</header>
+          <article class="content">
+            <p><b>Included as a Premium Attraction.</b> Premiums only included on 3+ Day All-Inclusive Passes. To make a reservation using your Go City All-Inclusive Pass, <a href="packages.html">click here</a> or give our reservations department a call at <b><a href="tel:+1808963800">(808) 926-3800</a></b> with those card numbers handy and someone from our team will be happy to assist you.</p>
+           </article>
+        </li>
+        <li class="tab">
+          <header onclick="tabToggle(this,'tab')">Do you offer large group discounts?</header>
+          <article class="content">
+            <p>We love helping you celebrate your special occasions, birthdays or life events! If you have a large group (30 people or more), please email us at <b><a href="mailto:#">info@alohakailuau.com</a></b></p>
+           </article>
+        </li>
+        <li class="tab">
+          <header onclick="tabToggle(this,'tab')">Cancellation Policy</header>
+          <article class="content">
+            <p>Cancellations must go through Ka Moana Luau. No cash surrender unless at least twenty-four (24) hours advance notice of cancellation is given. No-Shows and cancellations received within a twenty-four (24) hour period are subject to the entire activity cost and processing fees. No same day cancellations will be accepted. Cancellations on behalf of Ka Moana Luau will result in full refunds.</p>
+           </article>
+        </li>
+        <li class="tab">
+          <header onclick="tabToggle(this,'tab')">My Question is not on this list</header>
+          <article class="content">
+            <p>We're here to help make your experience in Hawaii, whether you're a local or a visitor, unforgettable! If you have an urgent question, questions about making a booking or a pre-made reservation, please call or email our reservations department at <b><a href="tel:+1808963800">(808) 926-3800</a></b> or <b><a href="mailto:#">reservations@alohakailuau.com</a></b>. Other inquiries please email <b><a href="mailto:#">info@alohakailuau.com</a></b></p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+    function tabToggle(targetElement,element){
+console.log("clicked");
+var parentClass = targetElement.parentNode.className;
+var el = document.getElementsByClassName(element);
+// Closes all
+for (var i = 0; i < el.length; i++) {
+  el[i].className = element;
+}
+if (parentClass == element) {
+   targetElement.parentNode.className = element + ' active';
+}
+  }
+    </script>
+<div id="map"></div>
+<footer>
+<ul>
+  <li>
+    <a href="https://colemanrpatrick.github.io/aloha-kai-luau" id="logo"><img src="images/design/alohakailogo.png" alt=""></a>
+    <b><a href="tel:+1808963800"><span class="material-symbols-outlined">call</span> (808) 926-3800</a></b>
+    <h4>Sealife Park</h4>
+    <br/>
+    <a href="https://www.google.com/maps/place/Sea+Life+Park+Hawaii/@21.3137242,-157.6636201,15z/data=!4m5!3m4!1s0x0:0x5def94f09ab5dc01!8m2!3d21.3137242!4d-157.6636201" target="_blank">
+      <p>41-202 Kalanianaʻole Hwy,<br/> Waimanalo, HI 96795</p>
+    </a>
+  </li>
+  <li>
+    <a href="sealife.html">sealife park</a>
+    <br/>
+    <a href="packages.html">reservations</a>
+    <br/>
+    <a href="dinner.html">dinner menu</a>
+    <br/>
+    <a href="#">cart</a>
+  </li>
+  <li>
+    <a href="faq.html">faq</a>
+    <br/>
+    <a href="contact.html">contact</a>
+    <br/>
+    <a href="privacy.html">privacy</a>
+    <br/>
+  </li>
+</ul>
+<aside>Copyright (c) 2023 Sealife Park All Rights Reserved.</aside>
+</footer>
+</body>
+  <!--
+   The `defer` attribute causes the callback to execute after the full HTML
+   document has been parsed. For non-blocking uses, avoiding race conditions,
+   and consistent behavior across browsers, consider loading using Promises
+   with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+  -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+  <script type="text/javascript" src="js/toggle.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  </script>
+</html>

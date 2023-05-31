@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>aloha kai luau</title>
+        <meta name="viewport" content="user-scalable = yes, width=320, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/checkpoint.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/kontikialoha.css">
+  </head>
+  <body>
+<!-- ================================= -->
+<!-- ||||||||||||||||||||||||||||||||| -->
+<!-- ================================= -->
+<div id="masthead">
+  <ul>
+    <li class="nav-left"><a href="index.html">home</a><a href="packages.html">reservations</a><a href="dinner.html">dinner menu</a></li>
+    <li><a href="index.html" id="logo"><img src="images/design/alohakailogo.png" alt=""></a></li>
+    <li class="nav-right"> <a href="sealife.html">sealife park</a> <a href="faq.html">faq</a> <a href="contact.html">contact</a><a href="#">cart</a></li>
+  </ul>
+</div>
+<!-- ================================= -->
+<!-- ||||||||||||||||||||||||||||||||| -->
+<!-- ================================= -->
+<div id="masthead-mobile">
+      <a href="https://colemanrpatrick.github.io/aloha-kai-luau" id="mobile-logo"><img src="images/design/alohakailogo.png" alt=""></a>
+      <button type="button" name="button" id="menu-btn" class="menu-btn" onclick="idToggle('mobile-menu','active')">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html">home</a>
+        <a href="packages.html">reservations</a>
+        <a href="dinner.html">dinner menu</a>
+        <a href="sealife.html">sealife park</a>
+        <a href="#">faq</a>
+        <a href="contact.html">contact</a>
+        <a href="#">cart</a>
+      </div>
+</div>
+<img id="bop-left" src="images/design/birdsofparadise.png" alt="">
+<img id="bop-right"  src="images/design/birdsofparadise.png" alt="">
+<!-- ================================= -->
+<!-- ||||||||||||||||||||||||||||||||| -->
+<!-- ================================= -->
+<style media="screen">
+#reciept-pending {
+	background-image: url("images/design/whiteTapas.jpg");
+	background-size: 6em;
+	padding-top: 14em;
+	padding-bottom: 8em;
+}
+#reciept-pending section {
+	width: 100%;
+	padding: 14em 0em 10em 0em;
+	background-image: url("images/photos/reciept-pending.jpg");
+	background-size: cover;
+	background-position: right center;
+	border-top: 0.5em solid black;
+	border-bottom: 0.5em solid black;
+}
+  #reciept-pending section h2 {
+  	width: 100%;
+  	font-size: 3em;
+  	color: white;
+  	text-align: center;
+  	font-family: 'Lobster', sans-serif;
+  	text-transform: capitalize;
+  	text-shadow: 0em 0em 2em black;
+  	line-height: 0.85em;
+  }
+  #reciept-pending section h2 span {
+  	font-size: 0.5em;
+  	font-family: system-ui, sans-serif;
+  	text-transform: capitalize;
+  }
+</style>
+<div id="reciept-pending">
+  <section><h2>thank you for your order<br/><span>your reciept will be ready soon. Check back shortly!</span></h2></section>
+</div>
+<!-- ================================= -->
+<!-- ||||||||||||||||||||||||||||||||| -->
+<!-- ================================= -->
+<div id="map"></div>
+<footer>
+<ul>
+  <li>
+    <a href="https://colemanrpatrick.github.io/aloha-kai-luau" id="logo"><img src="images/design/alohakailogo.png" alt=""></a>
+    <div class="social">
+      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-fb" class="delayed-img">  </a>
+      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-tw" class="delayed-img">  </a>
+      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-yt" class="delayed-img">  </a>
+      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-ig" class="delayed-img">  </a>
+    </div>
+    <b><a href="tel:+1808963800"><span class="material-symbols-outlined">call</span> (808) 926-3800</a></b>
+  </li>
+  <li>
+    <a href="https://www.google.com/maps/place/Sea+Life+Park+Hawaii/@21.3137242,-157.6636201,15z/data=!4m5!3m4!1s0x0:0x5def94f09ab5dc01!8m2!3d21.3137242!4d-157.6636201" target="_blank">
+      <img src="images/design/sealifelogo.png" alt="">
+      <p>41-202 Kalanianaʻole Hwy,<br/> Waimanalo, HI 96795</p>
+    </a>
+  </li>
+  <li>
+    <a href="sealife.html">sealife park</a>
+    <br/>
+    <a href="packages.html">reservations</a>
+    <br/>
+    <a href="dinner.html">dinner menu</a>
+    <br/>
+    <a href="contact.html">contact</a>
+    <br/>
+    <a href="#">cart</a>
+    <br/>
+    <a href="privacy.html">privacy</a>
+  </li>
+</ul>
+<aside>Copyright (c) 2023 Sealife Park All Rights Reserved. <a href="#">login</a></aside>
+</footer>
+</body>
+  <!--
+   The `defer` attribute causes the callback to execute after the full HTML
+   document has been parsed. For non-blocking uses, avoiding race conditions,
+   and consistent behavior across browsers, consider loading using Promises
+   with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+  -->
+  <script src="js/jquery.lazy.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+  <script type="text/javascript" src="js/toggle.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
