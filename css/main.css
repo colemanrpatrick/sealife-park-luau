@@ -253,6 +253,7 @@ p {
 	/* The height is 400 pixels */
 	width: 100%;
 	/* The width is the width of the web page */
+	display: none;
 }
 #map {
 	border-top: 1.25em solid #f3b232;
@@ -401,7 +402,7 @@ footer h4 {
 	border-top: 0.15em solid #ffffff94;
 	border-bottom: 0.15em solid #ffffff94;
 }
-#container-header h2 {
+#container-header h1 {
 	font-family: 'kontikialohajfregular',"Lobster",sans-serif;;
 	font-size: 3em;
 	text-transform: capitalize;
@@ -737,7 +738,7 @@ display: block;
 	z-index: 2;
 }
 #galleryPrev .material-symbols-outlined, #galleryNext .material-symbols-outlined {
-	color: white;
+	color: #ffffff40;
 	font-size: 6em;
 }
 #galleryPrev {
@@ -770,7 +771,7 @@ display: block;
 	vertical-align: bottom;
 	position: relative;
 }
-#container-first h2 {
+#container-first h1 {
 	text-transform: capitalize !important;
 	color: white;
 	font-size: 4rem;
@@ -778,10 +779,11 @@ display: block;
 	text-shadow: 0em 0em 1em black;
 	width: 65%;
 	padding: 0.5em;
-	text-align: justify;
 	margin-top: -1em;
+	text-align: left;
+	margin-left: 0.5em;
 }
-#container-first h2 b {
+#container-first h1 b {
 	font-family: 'kontikialohajfregular','Lobster', sans-serif, monospace;
 	text-transform: capitalize !important;
 	font-size: 1.25em;
@@ -792,6 +794,21 @@ display: block;
 	right: 0em;
 	bottom: 0em;
 	font-size: 0.8em;
+}
+@media(max-width:1000px){
+	#container-first h1 {
+		width: 100%;
+		font-size: 3rem;
+		margin-top: 0;
+	}
+}
+@media(max-width:600px){
+		#container-first h1 {
+		font-size: 2rem;
+			margin-left: 0em;
+			margin-top: -2em;
+		text-align: center;
+	}
 }
 /*==============================*/
 
@@ -1406,12 +1423,52 @@ footer a:hover {
 	   color: white;
   }
 }
+
+#callin-mobile {
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 1em;
+  background-color: #008ec8;
+  border-bottom: 0.5em solid #005b80;
+  border-top: 0.25em solid skyblue;
+  color: white;
+	display: none;
+}
+#callin-mobile p {
+  font-size: 1.85em;
+  font-family: "kontikialohajfregular",'Lobster', sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: middle;
+}
+#callin-mobile span {
+  display: block;
+}
+@media(max-width:1000px){
+	
+}
 @media(max-width:800px) {
+	#callin-desktop{
+		display: none;
+	}
+	#callin-mobile{
+		display: block;
+	}
+	.yellow-button:hover {
+	background-color: none !important;
+	border-bottom: 0.5em solid none !important; 
+ }
 	#booknow {
 		display: none;
 	}
 	#booknow-mobile {
 		display: block;
+	}
+	#booknow-mobile:hover{
+		background-color: 
+		
 	}
 	#container-first {
 		padding: 8em 0em 0em 0em;
@@ -1563,4 +1620,26 @@ footer a:hover {
 	height: 0;
 	overflow: hidden;
 	opacity: 0; 
+}
+.silver-prices p {
+  color: #afb1b3;
+}
+.silver-prices p span {
+  font-size: 1em;
+  text-decoration: line-through;
+}
+.silver-package-price {
+  display: block;
+  color: #b3b3c8;
+  text-decoration: line-through !important;
+}
+
+@media(max-width:450px){
+	.package li{
+		width: 100%;
+		display: block;
+	}
+	.package ul{
+		display: block;
+	}
 }

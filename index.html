@@ -1,352 +1,358 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SPPHN93HRS"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'G-SPPHN93HRS');
+</script>
+
     <meta charset="utf-8">
-    <title>aloha kai luau</title>
-        <meta name="viewport" content="user-scalable = yes, width=320, initial-scale=1">
+    <title>Sea Life Park Luau - Aloha Kai Luau</title>
+            <meta name="description" content="Sea Life Park Luau known as Aloha Kai Luau is located at Sea Life Park Oahu Hawaii overlooking the Ocean.">
+            <meta name="Keywords" content="Sea Life Park Luau, Aloha Kai Luau, Tickets to Aloha Kai Luau, Luau at Sea Life Park, Best Oahu Luau, Oahu Luau, Hawaii Luau">
+            <link rel="canonical" href="https://www.sealifeparkluau.com" />
+    <meta name="viewport" content="user-scalable = yes, width=320, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/checkpoint.css">
-    <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/kontikialoha.css">
-  </head>
-  <body>
-<!-- ================================= -->
-<!-- ||||||||||||||||||||||||||||||||| -->
-<!-- ================================= -->
-<div id="masthead">
-  <div id="phone"><a href="tel:+18664829775"><span class="material-symbols-outlined">call</span>(866) 482-9775</a></div>
-  <ul>
-    <li class="nav-left"><a href="index.html">home</a><a href="packages.html">reservations</a><a href="dinner.html">dinner menu</a></li>
-    <li><a href="index.html" id="logo"><img src="images/design/alohakailogo.png" alt=""></a></li>
-    <li class="nav-right"> <a href="sealife.html">sealife park</a> <a href="faq.html">faq</a> <a href="contact.html">contact</a><a href="#">cart</a></li>
-  </ul>
-</div>
-<!-- ================================= -->
-<!-- ||||||||||||||||||||||||||||||||| -->
-<!-- ================================= -->
-<div id="masthead-mobile">
-      <a href="https://colemanrpatrick.github.io/aloha-kai-luau" id="mobile-logo"><img src="images/design/alohakailogo.png" alt=""></a>
-      <button type="button" name="button" id="menu-btn" class="menu-btn" onclick="idToggle('mobile-menu','active')">
-        <span class="material-symbols-outlined">menu</span>
-      </button>
-      <a href="tel:+18664829775" id="mobile-phone">
-        <span class="material-symbols-outlined">call</span>
-      </a>
-      <div id="mobile-menu" class="mobile-menu">
-        <a href="index.html">home</a>
-        <a href="packages.html">reservations</a>
-        <a href="dinner.html">dinner menu</a>
-        <a href="sealife.html">sealife park</a>
-        <a href="#">faq</a>
-        <a href="contact.html">contact</a>
-        <a href="#">cart</a>
-      </div>
-</div>
-<img id="bop-left" src="images/design/birdsofparadise.png" alt="">
-<img id="bop-right"  src="images/design/birdsofparadise.png" alt="">
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300&family=Lato:wght@300;900&display=swap" rel="stylesheet">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCreSC6Ynt1JS-gwYJmTyyNAqanWCSqCAM&callback=initMap"></script>
+    <script type="text/javascript" src="js/toggle.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+</head>
+<body>
+    <!-- ================================= -->
+    <!-- ||||||||||||||||||||||||||||||||| -->
+    <!-- ================================= -->
+    <div id="masthead">
+        <div id="phone"><a href="tel:+18664829775"><span class="material-symbols-outlined">call</span> (866) 482-9775</a></div>
+        <ul>
+            <li class="nav-left"><a href="/">home</a> <a href="/reservations.htm">reservations</a><a href="/menu.htm">dinner menu</a></li>
+            <li><a href="/" id="logo"><img src="images/design/alohakailogo.png" alt=""></a></li>
+            <li class="nav-right"> <a href="/sealife.htm">sea life park</a> <a href="/faq.htm">faq</a> <a href="/contact.htm">contact</a><a href="/cart/edit#viewitems">cart</a></li>
+        </ul>
+
+    </div>
+    <!-- ================================= -->
+    <!-- ||||||||||||||||||||||||||||||||| -->
+    <!-- ================================= -->
+    <div id="masthead-mobile">
+        <a href="/" id="mobile-logo"><img src="images/design/alohakailogo.png" alt=""></a>
+        <button type="button" name="button" id="menu-btn" class="menu-btn" onclick="idToggle('mobile-menu','active')">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <a href="tel:+18664829775" id="mobile-phone">
+            <span class="material-symbols-outlined">call</span>
+        </a>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="/">home</a>
+            <a href="/reservations.htm">reservations</a>
+            <a href="/menu.htm">dinner menu</a>
+            <a href="/sealife.htm">seal life park</a>
+            <a href="/faq.htm">faq</a>
+            <a href="/contact.htm">contact</a>
+            <a href="/cart/edit#viewitems">cart</a>
+        </div>
+    </div>
+    <img id="bop-left" src="images/design/birdsofparadise.png" alt="">
+    <img id="bop-right" src="images/design/birdsofparadise.png" alt="">
+
+    
+
+
 <!-- ================================= -->
 <!-- ||||||||||||||||||||||||||||||||| -->
 <!-- ================================= -->
 <style>
-.checkpoint-first #gallery-content{
-  transform: translate(-150%, -50%);
-  opacity: 0;
-  transition: 1s;
-}
-.checkpoint-first.active #gallery-content{
-  transform: translate(-50%, -50%);
-  opacity: 1;
-}
+    .checkpoint-first #gallery-content {
+        transform: translate(-150%, -50%);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .checkpoint-first.active #gallery-content {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
 </style>
-    <div id="checkpoint-first" class="checkpoint-first">
-      <div class="container" id="container-first">
+<div id="checkpoint-first" class="checkpoint-first">
+    <div class="container" id="container-first">
         <div id="top-gallery">
-          <a href="tel:+1808963800" id="callin-desktop"><p>Call in for <span>20% off</span>Silver Package</p></a>
-          <div id="gallery-content">
-            <button type="button" name="button" id="galleryPrev" onclick="plusSlides(-1);">
-              <span class="material-symbols-outlined">chevron_left</span>
-            </button>
-            <button type="button" name="button" id="galleryNext" onclick="plusSlides(1);">
-              <span class="material-symbols-outlined">chevron_right</span>
-            </button>
-            <section>
-              <h2>
-                the <b>newest</b>,<br/> most <b>exciting</b><br/> <b>luau</b> in <b>hawaii</b>
-              </h2>
-              <a href="packages.html" type="button" name="button" class="yellow-button" id="booknow">
-                <span>book now</span>
-                <span class="material-symbols-outlined">calendar_month</span>
-              </a>
-            </section>
-          </div>
-          <div id="top-gallery-gallery">
-            <img src="images/photos/firedramatic.jpeg" alt="" class="slide" id="slide-0">
-            <img src="images/photos/evening.jpeg" alt="" class="slide" id="slide-1">
-            <img src="images/photos/redandyellow.jpeg" alt="" class="slide" id="slide-2">
-            <img src="images/photos/performers.jpeg" alt="" class="slide" id="slide-3">
-            <img src="images/photos/luauactivities.jpg" alt="" class="slide" id="slide-4">
-          </div>
-          <script type="text/javascript">
-          var images = $('.top-gallery-gallery').find('img');
-          images.each(function(){
-            images.Lazy();
-            console.log("lazy loaded",images);
-          })
-          </script>
+           
+            <div id="gallery-content">
+                <button type="button" name="button" id="galleryPrev" onclick="plusSlides(-1);">
+                    <span class="material-symbols-outlined">chevron_left</span>
+                </button>
+                <button type="button" name="button" id="galleryNext" onclick="plusSlides(1);">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
+                <section>
+                    <h1>
+                        <b>Sea life Park</b><br/><b>Luau</b>: the<br/><b>official site</b>
+                    </h1>
+                    <a href="/reservations.htm" name="button" class="yellow-button" id="booknow">
+                        <span>book now</span>
+                        <span class="material-symbols-outlined">calendar_month</span>
+                    </a>
+                </section>
+            </div>
+            <div id="top-gallery-gallery">
+                <img src="images/photos/firedramatic.jpeg" alt="" class="slide" id="slide-0">
+                <img src="images/photos/evening.jpeg" alt="" class="slide" id="slide-1">
+                <img src="images/photos/redandyellow.jpeg" alt="" class="slide" id="slide-2">
+                <img src="images/photos/performers.jpeg" alt="" class="slide" id="slide-3">
+                <img src="images/photos/luauactivities.jpg" alt="" class="slide" id="slide-4">
+            </div>
+            <script type="text/javascript">
+                var images = $('.top-gallery-gallery').find('img');
+                images.each(function () {
+                    images.Lazy();
+                    console.log("lazy loaded", images);
+                })
+            </script>
         </div>
-      </div>
-      <a href="packages.html" type="button" name="button" class="yellow-button" id="booknow-mobile">
+    </div>
+    <a href="/reservations.htm" type="button" name="button" class="yellow-button" id="booknow-mobile">
         <span>book now</span>
         <span class="material-symbols-outlined">calendar_month</span>
-      </a>
-    </div>
-    <script type="text/javascript">
+    </a>
+    <a href="/packages.htm" id="callin-mobile">
+      <p>flash sale <span>20% off</span>Silver Package</p>
+    </a>                                                                                                    
+</div>
+<script type="text/javascript">
     let slideIndex = 1;
     showSlides(slideIndex);
     // Next/previous controls
     function plusSlides(n) {
-      showSlides(slideIndex += n);
+        showSlides(slideIndex += n);
     }
     // Thumbnail image controls
     function currentSlide(n) {
-      showSlides(slideIndex = n);
+        showSlides(slideIndex = n);
     }
     function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("slide");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].className = "slide";
-      }
-      slides[slideIndex-1].className = "slide active";
+        let i;
+        let slides = document.getElementsByClassName("slide");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].className = "slide";
+        }
+        slides[slideIndex - 1].className = "slide active";
     }
-    </script>
+</script>
 
-    <script type="text/javascript">
+<script type="text/javascript">
     // var documentHeight = document.documentElement.scrollTop || window.scrollY || window.pageYOffset || document.body.scrollTop;
     var checkpointFirst = document.getElementById("checkpoint-first");
     var checkpoint = document.getElementsByClassName("checkpoint");
     window.onload = function () {
-      checkpointFirst.classList = "checkpoint-first active";
-    }
-    window.onscroll = function(){
-      /*=== use first checkpoint if at the very top of the page ===*/
-      var checkpointFirstBottom = checkpointFirst.clientHeight;
-      if (window.scrollY < checkpointFirstBottom) {
         checkpointFirst.classList = "checkpoint-first active";
-      }else{
-        checkpointFirst.classList = "checkpoint-first";
-      }
-      /*=== ===*/
-      for (var i = 0; i < checkpoint.length; i++) {
-        var checkpointHeight = checkpoint[i].offsetTop - (checkpoint[i].clientHeight);
-        var checkpointBottom = checkpoint[i].offsetTop + (checkpoint[i].clientHeight / 2);
-        if (window.scrollY > checkpointHeight && window.scrollY < checkpointBottom) {
-          checkpoint[i].classList = "checkpoint active";
-        }else{
-          checkpoint[i].classList = "checkpoint";
-        }
-      }
     }
-    </script>
+    window.onscroll = function () {
+        /*=== use first checkpoint if at the very top of the page ===*/
+        var checkpointFirstBottom = checkpointFirst.clientHeight;
+        if (window.scrollY < checkpointFirstBottom) {
+            checkpointFirst.classList = "checkpoint-first active";
+        } else {
+            checkpointFirst.classList = "checkpoint-first";
+        }
+        /*=== ===*/
+        for (var i = 0; i < checkpoint.length; i++) {
+            var checkpointHeight = checkpoint[i].offsetTop - (checkpoint[i].clientHeight);
+            var checkpointBottom = checkpoint[i].offsetTop + (checkpoint[i].clientHeight / 2);
+            if (window.scrollY > checkpointHeight && window.scrollY < checkpointBottom) {
+                checkpoint[i].classList = "checkpoint active";
+            } else {
+                checkpoint[i].classList = "checkpoint";
+            }
+        }
+    }
+</script>
 <!-- ================================= -->
 <!-- ||||||||||||||||||||||||||||||||| -->
 <!-- ================================= -->
-    <div class="checkpoint" id="container1half">
-      <a id="header-aside" href="bookwithus.html">
+<div class="checkpoint" id="container1half">
+    <a id="header-aside" href="/bookwithus.htm">
         <h2>Book With Us</h2>
         <p>• We’ve got the best pricing • No hassle • Secure information • Best seats.</p>
         <img class="banner" src="images/design/bookwithus.jpg" alt="">
         <button class="white-button"><span>learn more</span></button>
-      </a>
-    </div>
-<!-- ================================= -->
-<!-- ||||||||||||||||||||||||||||||||| -->
-<!-- ================================= -->
-    <div class="checkpoint">
-      <div class="container" id="container-second">
-        <div class="reading-container">
-          <ul>
-            <li>
-              <div id="yt-video-container-a">
-                <span class="material-symbols-outlined">play_circle</span>
-              </div>
-              <!--- lazy youtube -->
-              <script type="text/javascript">
-              var video = document.getElementById("yt-video-container-a");
-
-              video.addEventListener("click", function(){
-                var iframe = document.createElement( "iframe" );
-                iframe.setAttribute("frameborder","0");
-                iframe.setAttribute("allowfullscreen","");
-                iframe.setAttribute("src","https://www.youtube.com/embed/-LlPutbEJak?autoplay=1&rel=0" );  //youtube video source//
-                this.innerHTML = "";
-                this.appendChild( iframe );
-              });
-              </script>
-              <!-- ============= -->
-              <button type="button" name="button" class="red-button" id="learnmore">
-                <span>learn more</span>
-                <span class="material-symbols-outlined">auto_stories</span>
-              </button>
-            </li>
-            <li>
-              <h3><span>experience</span>aloha kai</h3>
-              <p>Join our ʻOhana for an exciting evening under the stars. Witness world-class entertainment at the best luau on Oahu, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </li>
-          </ul>
-        </div>
-
-        <div id="continued-reading">
-          <ul>
-            <li>
-              <img src="images/design/alohakai_dancer.png" alt="">
-              <p>Aloha Kai Luaua takes guests on a voyage through Polynesia with dances, chants and activities from across the Pacific.</p>
-            </li>
-            <li>
-              <img src="images/design/palms.png" alt="">
-              <p>Participate in interactive cultural activities before the show like lei-making, hula lessons, headband weaving & more!</p>
-            </li>
-            <li>
-              <img src="images/design/pineapple-2.png" alt="">
-              <p>Feast on an island-inspired luau dinner complete with seasonal fruit and a Kalua Pig ʻumu uncovering ceremony.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-<!-- ================================= -->
-<!-- ||||||||||||||||||||||||||||||||| -->
-<!-- ================================= -->
-<!-- <div id="book-with-us">
-  <div class="">
-    <h3>why book with us?</h3>
-    <ul>
-      <li>
-        <span class="material-symbols-outlined">price_check</span>
-        <b>best prices</b>
-        <p>we'll beat or match 3rd party pricing!</p>
-      </li>
-      <li>
-        <span class="material-symbols-outlined">support_agent</span>
-        <b>friendly service</b>
-        <p>we'll make sure your experience is unforgettable!</p>
-      </li>
-      <li>
-        <span class="material-symbols-outlined">restaurant_menu</span>
-        <b>choice seating</b>
-        <p>choose the luau experience best for you!</p>
-      </li>
-    </ul>
-  </div>
-</div> -->
-<!-- ================================= -->
-<!-- ||||||||||||||||||||||||||||||||| -->
-<!-- ================================= -->
-<div id="fourth-container">
-<ul id="misc-content">
-  <li>
-    <img src="images/photos/fire.jpeg" alt="">
-    <article>
-      <h3>polynesian performances</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-      <a class="white-button" href="packages.html"><span>reservations</span></a>
-    </article>
-  </li>
-  <li>
-    <img src="images/photos/luauactivities.jpg" alt="">
-    <article>
-      <h3>cultural activites</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-      <a class="white-button" href="packages.html"><span>reservations</span></a>
-    </article>
-  </li>
-  <li>
-    <img src="images/photos/imu.jpeg" alt="">
-    <article>
-      <h3>island dinner</h3>
-      <h3>cultural activites</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-      <a class="white-button" href="dinner.html"><span>menu</span></a>
-    </article>
-  </li>
-</ul>
-<script type="text/javascript">
-var images = $('.misc-content').find('img');
-images.each(function(){
-  images.Lazy();
-  console.log("lazy loaded",images);
-})
-</script>
+    </a>
+    <img src="images/design/palm_img.png" id="palm-left" alt="">
+    <img src="images/design/palm_img.png" id="palm-right" alt="">
 </div>
 <!-- ================================= -->
 <!-- ||||||||||||||||||||||||||||||||| -->
 <!-- ================================= -->
-    <div class="checkpoint">
-      <div class="container" id="container-third">
-        <div id="schedule">
-          <h3>Join Us At Sealife Park<br/>For The Aloha Kai Luau</h3>
-          <section>
-            <p><b>Check-in begins</b> at <b>5:15 pm</b><br/>
-               <b>Gates open</b> at <b>5:30 pm</b><br/>
-               <b>Starts</b> at <b>5:30 pm</b> and <b>ends</b> around <b>8:30 pm</b>
-             </p>
-          </section>
+<div class="checkpoint">
+    <div class="container" id="container-second">
+        <div class="reading-container">
+            <ul>
+                <li>
+                    <div id="yt-video-container-a">
+                        <span class="material-symbols-outlined">play_circle</span>
+                    </div>
+                    <!--- lazy youtube -->
+                    <script type="text/javascript">
+                        var video = document.getElementById("yt-video-container-a");
+
+                        video.addEventListener("click", function () {
+                            var iframe = document.createElement("iframe");
+                            iframe.setAttribute("frameborder", "0");
+                            iframe.setAttribute("allowfullscreen", "");
+                            iframe.setAttribute("src", "https://www.youtube.com/embed/-LlPutbEJak?autoplay=1&rel=0");  //youtube video source//
+                            this.innerHTML = "";
+                            this.appendChild(iframe);
+                        });
+                    </script>
+                    <!-- ============= -->
+                    <a href="/bookwithus.htm" class="red-button" id="learnmore">
+                        <span>learn more</span>
+                        <span class="material-symbols-outlined">auto_stories</span>
+                    </a>
+                </li>
+                <li>
+                    <h3><span>experience</span>aloha kai</h3>
+                    <p>Join our ʻOhana (Family) for an exciting evening as we overlook Rabbit Island and breaktaking cliff views overlooking the Ocean, as we take you on a voyage across the Kai (Sea). Witness world-class entertainment with Malu Productions at the best luau on Oahu, that begins and ends with fire!</p>
+                </li>
+            </ul>
         </div>
+
+        <div id="continued-reading">
+            <ul>
+                <li>
+                    <img src="images/design/alohakai_dancer.png" alt="">
+                    <p>Aloha Kai Luau takes our visitors on an exciting voyage through Polynesia and Hawaii with dances, chants and activities from all across the Pacific.</p>
+                </li>
+                <li>
+                    <img src="images/design/palms.png" alt="">
+                    <p>Enjoy interactive cultural activities before the Luau show like lei-making, hula lessons, headband weaving and Much More!</p>
+                </li>
+                <li>
+                    <img src="images/design/pineapple-2.png" alt="">
+                    <p>Dine on an island luau dinner complete with seasonal fruit and a Kalua Pig ʻumu uncovering ceremony!</p>
+                </li>
+            </ul>
         </div>
     </div>
+</div>
 <!-- ================================= -->
 <!-- ||||||||||||||||||||||||||||||||| -->
 <!-- ================================= -->
-<div id="map"></div>
-<footer>
-<ul>
-  <li>
-    <a href="https://colemanrpatrick.github.io/aloha-kai-luau" id="logo"><img src="images/design/alohakailogo.png" alt=""></a>
-    <div class="social">
-      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-fb" class="delayed-img">  </a>
-      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-tw" class="delayed-img">  </a>
-      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-yt" class="delayed-img">  </a>
-      <a href="#"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-ig" class="delayed-img">  </a>
+<div id="fourth-container">
+    <ul id="misc-content">
+        <li>
+            <img src="images/photos/fire.jpeg" alt="">
+            <article>
+                <h3>polynesian performances</h3>
+                <p>Sit and enjoy different Polynesian Performances from Tahiti to Tonga!</p>
+                <a class="white-button" href="reservations.htm"><span>reservations</span></a>
+            </article>
+        </li>
+        <li>
+            <img src="images/photos/luauactivities.jpg" alt="">
+            <article>
+                <h3>cultural activites</h3>
+                <p>Interact and enjoy Cultural activities before the Luau show like lei-making, hula lessons, headband weaving and Much More!</p>
+                <a class="white-button" href="reservations.htm"><span>reservations</span></a>
+            </article>
+        </li>
+        <li>
+            <img src="images/photos/imu.jpeg" alt="">
+            <article>
+                <h3>island dinner</h3>
+                <p>Dine on an island luau dinner with Fresh Island Fish, Kalua pork, Teriyaki Chicken, Lomi Lomi Salmon, Tossed Greens, and More!</p>
+                <a class="white-button" href="menu.htm"><span>menu</span></a>
+            </article>
+        </li>
+    </ul>
+    <script type="text/javascript">
+        var images = $('.misc-content').find('img');
+        images.each(function () {
+            images.Lazy();
+            console.log("lazy loaded", images);
+        })
+    </script>
+</div>
+<!-- ================================= -->
+<!-- ||||||||||||||||||||||||||||||||| -->
+<!-- ================================= -->
+<div class="checkpoint">
+    <div class="container" id="container-third">
+        <div id="schedule">
+            <h3>Join Us At Sea Life Park<br />For The Aloha Kai Luau</h3>
+            <section>
+                <p>
+                   Open 6 days a week. Closed on Saturdays.
+                    <br />
+                    <b>Check-in begins at 4:30 pm</b><br />
+                    <b>Luau grounds open at 5:00 pm</b>
+                </p>
+            </section>
+        </div>
     </div>
-    <b><a href="tel:+8664829775"><span class="material-symbols-outlined">call</span> (866) 482-9775</a></b>
-  </li>
-  <li>
-    <a href="https://www.google.com/maps/place/Sea+Life+Park+Hawaii/@21.3137242,-157.6636201,15z/data=!4m5!3m4!1s0x0:0x5def94f09ab5dc01!8m2!3d21.3137242!4d-157.6636201" target="_blank">
-      <img src="images/design/sealifelogo.png" alt="">
-      <p>41-202 Kalanianaʻole Hwy,<br/> Waimanalo, HI 96795</p>
-    </a>
-  </li>
-  <li>
-    <a href="sealife.html">sealife park</a>
-    <br/>
-    <a href="packages.html">reservations</a>
-    <br/>
-    <a href="dinner.html">dinner menu</a>
-    <br/>
-    <a href="contact.html">contact</a>
-    <br/>
-    <a href="#">cart</a>
-    <br/>
-    <a href="privacy.html">privacy</a>
-  </li>
-</ul>
-<aside>Copyright (c) 2023 Sealife Park All Rights Reserved. <a href="#">login</a></aside>
-</footer>
+</div>
+<!-- ================================= -->
+<!-- ||||||||||||||||||||||||||||||||| -->
+<!-- ================================= -->
+
+    <!-- ================================= -->
+    <!-- ||||||||||||||||||||||||||||||||| -->
+    <!-- ================================= -->
+    <div id="map"></div>
+    <footer>
+        <ul>
+            <li>
+                <a href="/" id="logo"><img src="images/design/alohakailogo.png" alt=""></a>
+                <div class="social">
+                    <a href="https://facebook.com/alohakailuau"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-fb" class="delayed-img">  </a>
+                    <a href="https://twitter.com/alohakailuau"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-tw" class="delayed-img">  </a>
+                    <a href="https://www.youtube.com/@alohakailuau"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-yt" class="delayed-img">  </a>
+                    <a href="https://instagram.com/alohakailuau"> <img src="images/design/facebook_twitter_youtube_instagram.png" alt="" id="social-ig" class="delayed-img">  </a>
+                </div>
+                <b><a href="tel:+18664829775"><span class="material-symbols-outlined">call</span> 866-482-9775</a></b>
+
+                <a href="https://www.google.com/maps/place/Sea+Life+Park+Hawaii/@21.3137242,-157.6636201,15z/data=!4m5!3m4!1s0x0:0x5def94f09ab5dc01!8m2!3d21.3137242!4d-157.6636201" target="_blank">
+                    <p>41-202 Kalanianaʻole Hwy,<br /> Waimanalo, HI 96795</p>
+                </a>
+            </li>
+            <li>
+
+                <br />
+                <a href="/reservations.htm">reservations</a>
+                <br />
+                <a href="/menu.htm">dinner menu</a>
+                <br />
+                <a href="/sealife.htm">sea life park</a>
+                <br />
+                <a href="/cart/edit#viewitems">cart</a>
+            </li>
+            <li>
+                <a href="/faq.htm">faq</a>
+                <br />
+                <a href="/contact.htm">contact</a>
+                <br />
+                <a href="/privacy.htm">privacy</a>
+                <br />
+                <a href="/terms.htm">terms & conditions</a>
+                
+            </li>
+        </ul>
+        <aside>Copyright (c) 2023 Sealife Park All Rights Reserved. <a href="/account/login">login</a></aside>
+    </footer>
 </body>
-  <!--
-   The `defer` attribute causes the callback to execute after the full HTML
-   document has been parsed. For non-blocking uses, avoiding race conditions,
-   and consistent behavior across browsers, consider loading using Promises
-   with https://www.npmjs.com/package/@googlemaps/js-api-loader.
-  -->
-  <script src="js/jquery.lazy.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
-  <script type="text/javascript" src="js/toggle.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+
+
 </html>

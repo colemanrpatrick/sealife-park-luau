@@ -1,0 +1,940 @@
+/*=== purchase window styling ===*/
+
+#purchase-window {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+#purchase-window {
+    font-size: 32px;
+}
+
+#purchase-ui {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.4);
+    width: 96%;
+    max-width: 60em;
+    min-height: 30em;
+    text-align: center;
+    padding: 3em;
+    max-height: 95%;
+    overflow-y: scroll;
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-color: #ffffeb;
+    background-image: url("../images/SecondaryContentBG.jpg");
+}
+/*=== purchase window styling ===*/
+
+#purchase-window {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+#purchase-window {
+    font-size: 32px;
+}
+
+#purchase-ui {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.4);
+    width: 96%;
+    max-width: 60em;
+    min-height: 30em;
+    text-align: center;
+    padding: 3em;
+    max-height: 95%;
+    overflow-y: scroll;
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-color: #ffffeb;
+    background-image: url("../images/SecondaryContentBG.jpg");
+}
+
+@media(max-width:2280px) {
+    #purchase-window {
+        font-size: 28px;
+    }
+}
+
+@media(max-width:2160px) {
+    #purchase-window {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:1800px) {
+    #purchase-window {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1608px) {
+    #purchase-window {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:1440px) {
+    #purchase-window {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:500px) {
+    #purchase-ui {
+        padding: 6em 0.5em 1em 0.5em;
+    }
+}
+
+@media(max-width:900px) {
+    #purchase-window {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:400px) {
+    #purchase-window {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1440px) {
+    #purchase-window p {
+        font-size: 1em;
+    }
+}
+
+#purchase-window.active {
+    display: block;
+}
+
+#screen-1, #screen-2, #screen-3 {
+    display: none;
+}
+
+    #screen-1.active, #screen-2.active, #screen-3.active {
+        display: block;
+    }
+
+#purchase-ui #close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+}
+
+#close-btn .material-symbols-outlined {
+    font-size: 3em;
+    background: white;
+    border-radius: 1em;
+    margin-top: 0.25em;
+}
+
+#purchase-ui .yellow-button {
+    font-size: 1.25em;
+    padding: 1em;
+    font-family: "kontikialohajfregular", "Lobster", sans-serif;
+    text-transform: capitalize;
+    color: #9C0000;
+}
+
+    #purchase-ui .yellow-button:hover {
+        background-color: white;
+        border-bottom: 0.5em solid gainsboro;
+    }
+
+#purchase-ui header {
+    font-family: "kontikialohajfregular", "Lobster", sans-serif;
+    font-size: 1.15em;
+    text-transform: capitalize;
+}
+
+.ui-widget {
+    font-family: system-ui;
+}
+
+.ui-datepicker {
+    width: auto;
+    max-width: 40em;
+}
+
+    .ui-datepicker .ui-datepicker-title {
+        padding: 0.75em;
+    }
+
+.ui-datepicker-calendar th span {
+    font-weight: normal;
+}
+
+.ui-widget.ui-widget-content {
+    margin: 0 auto;
+    border: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-button, .ui-button {
+    border: none;
+    background: #498192;
+    color: white;
+    padding: 2em 0.25em 0.25em 2em;
+}
+
+    .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+        border: none;
+        background: white;
+        font-weight: normal;
+        color: #212121;
+    }
+
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+        background: gold !important;
+        color: #498192 !important;
+        font-weight: bold;
+    }
+
+#screen-1 label {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+
+.ui-widget-header {
+    border: none;
+    color: #498192;
+    width: 100%;
+    background: #f9d365;
+}
+
+.package-row {
+    width: 100%;
+    text-align: center;
+    font-family: system-ui;
+}
+
+    .package-row header {
+        width: 100%;
+        padding: 0.4em;
+        font-size: 1.25em;
+        text-transform: capitalize;
+        text-align: left;
+        background-color: #10aa10;
+        color: white;
+    }
+
+.package-option {
+    display: inline-block;
+    width: 33.3%;
+    margin-left: -2px;
+    padding: 0.5em;
+    margin-right: -2px;
+}
+
+    .package-option hr {
+        border: 0;
+    }
+
+    .package-option p {
+        font-size: 0.75em;
+        text-transform: capitalize;
+    }
+
+    .package-option span {
+        font-size: 1.25em;
+        line-height: 1.5em;
+        text-decoration: line-through;
+    }
+
+    .package-option b {
+        font-size: 1.2em;
+        color: #10aa10;
+        font-weight: normal;
+    }
+
+    .package-option br {
+        height: 0;
+    }
+
+#early-transportation {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid aliceblue;
+    margin-bottom: 2em;
+}
+
+    #early-transportation span {
+        font-family: system-ui;
+        font-size: 1.25em;
+        color: #498192;
+        margin-right: 0.5em;
+    }
+
+.numberSpinner {
+    margin: 0.5em;
+    display: table-cell;
+    text-align: center;
+    width: 33%;
+    font-size: 1em;
+}
+
+.package-option {
+    display: table;
+    width: 100%;
+}
+
+.numberSpinner section {
+    position: relative;
+    overflow: hidden;
+    width: 2.25em;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid;
+}
+
+.price-details {
+    display: table-cell;
+    width: 66%;
+}
+
+.package-option p {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.package-option b {
+    font-size: 1.2em;
+    color: #006c9c;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.package-option span {
+    text-decoration: none;
+}
+
+.numberSpinner input[type="number"] {
+    font-size: 1em;
+    width: 3em;
+    padding: 0.25em;
+    border: 0;
+    color: darkblue;
+}
+
+.numberSpinner button {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.25em;
+    width: 1.5em;
+    height: 1em;
+    padding: 0.75em 0;
+    line-height: 0em;
+    text-align: center;
+    border: 0;
+    font-weight: bold;
+    background-color: #498192;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .numberSpinner button:hover {
+        opacity: 0.7;
+    }
+
+    .numberSpinner button:active {
+        background-color: gold;
+    }
+
+#screen-2 select {
+    padding: 0.5em;
+    border: 0.15em solid #006c9c;
+    font-size: 1.05em;
+    display: block;
+    width: 100%;
+    max-width: 20em;
+    margin: 1em auto;
+}
+
+#screen-2 b {
+    font-family: system-ui;
+}
+
+#screen-2 p {
+    font-family: system-ui;
+}
+/*====================================*/
+
+#participants {
+    font-family: system-ui;
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+.participant {
+    padding: 0.5em;
+    text-align: right;
+    border-bottom: 0.15em solid aliceblue;
+}
+
+    .participant label {
+        color: #006c9c;
+    }
+
+    .participant label, .participant input {
+        display: inline-block;
+        vertical-align: top;
+        text-transform: capitalize;
+        margin: 0.5em;
+        text-align: left;
+        font-weight: bold;
+    }
+
+.input-age, .input-name {
+    padding: 0.5em;
+    border: 0.15em solid #006c9c;
+    font-size: 1em;
+}
+
+.participant .input-age, .participant label[for="age"] {
+    width: 20%;
+}
+
+.participant .input-name, .participant label[for="name"] {
+    width: 71.6%;
+}
+
+.total {
+    text-transform: capitalize;
+    padding: 1em;
+}
+
+.removeBtn {
+    font-size: 1em;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0.25em;
+    border: 2px solid;
+    background: none;
+    border-radius: 50%;
+}
+
+.participant-input {
+    padding: 0.5em;
+    border: 0.15em solid #006c9c;
+    font-size: 1.05em;
+    display: block;
+    width: 100%;
+    max-width: 20em;
+    margin: 1em auto;
+    background-color: #e9e9ed;
+    font-family: system-ui;
+}
+
+#total {
+    font-size: 2em;
+    color: #10aa10;
+}
+
+#carrierInput {
+    border: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+#terms-conditions p {
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: middle;
+    max-width: 90%;
+    padding: 1em;
+    text-align: justify;
+}
+
+#terms-conditions p {
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+
+#terms-conditions input {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#terms-check {
+    display: inline-block;
+    max-width: 20em;
+    text-transform: capitalize;
+}
+
+@media(max-width:450px) {
+    #datepicker {
+        font-size: 0.8em;
+    }
+
+    .numberSpinner {
+        display: inline-block;
+        width: 49%;
+        margin: 0;
+        vertical-align: middle;
+        font-size: 1.25em;
+    }
+
+    .price-details {
+        display: inline-block;
+        width: 49%;
+        vertical-align: middle;
+    }
+
+    .package-option p {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+@media(max-width:500px) {
+    #purchase-ui {
+        padding: 2em 0.5em 1em 0.5em;
+    }
+}
+
+@media(max-width:1440px) {
+    #purchase-window p {
+        font-size: 1.25em;
+    }
+}
+
+#purchase-window.active {
+    display: block;
+}
+
+#screen-1, #screen-2, #screen-3 {
+    display: none;
+}
+
+    #screen-1.active, #screen-2.active, #screen-3.active {
+        display: block;
+    }
+
+#purchase-ui #close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    border: none;
+}
+
+#close-btn .material-symbols-outlined {
+    font-size: 3em;
+    background: white;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    color: darkred;
+    font-weight: bold;
+}
+
+#purchase-ui .yellow-button {
+    font-size: 1.25em;
+    padding: 1em;
+    font-family: "kontikialohajfregular", "Lobster", sans-serif;
+    text-transform: capitalize;
+    color: #9C0000;
+    min-width: 6em;
+    margin: 0.5em;
+}
+
+    #purchase-ui .yellow-button:hover {
+        background-color: white;
+        border-bottom: 0.5em solid gainsboro;
+    }
+
+#purchase-ui header {
+    font-family: "kontikialohajfregular", "Lobster", sans-serif;
+    font-size: 1.15em;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    color: #0c6b9e;
+}
+
+.ui-widget {
+    font-family: system-ui;
+}
+
+.ui-datepicker {
+    width: auto;
+    max-width: 40em;
+}
+
+    .ui-datepicker .ui-datepicker-title {
+        padding: 0.75em;
+    }
+
+.ui-datepicker-calendar th span {
+    font-weight: normal;
+}
+
+.ui-widget.ui-widget-content {
+    margin: 0 auto;
+    border: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-button, .ui-button {
+    border: none;
+    background: #0c6b9e;
+    color: white;
+    padding: 2em 0.25em 0.25em 2em;
+}
+
+    .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+        border: none;
+        background: white;
+        font-weight: normal;
+        color: #212121;
+    }
+
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+        background: gold !important;
+        color: #498192 !important;
+        font-weight: bold;
+    }
+
+#screen-1 label {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+
+.ui-widget-header {
+    border: none;
+    color: #0c6b9e;
+    width: 100%;
+    background: #f9d365;
+}
+
+.package-row {
+    width: 100%;
+    text-align: center;
+    font-family: system-ui;
+}
+
+    .package-row header {
+        width: 100%;
+        padding: 0.4em;
+        font-size: 1.25em;
+        text-transform: capitalize;
+        text-align: left;
+        background-color: #10aa10;
+        color: white;
+    }
+
+.package-option {
+    display: inline-block;
+    width: 33.3%;
+    margin-left: -2px;
+    padding: 0.5em;
+    margin-right: -2px;
+}
+
+    .package-option hr {
+        border: 0;
+    }
+
+    .package-option p {
+        font-size: 0.9em;
+        text-transform: capitalize;
+    }
+
+    .package-option span {
+        accent-colorfont-size: 1.6em;
+        line-height: em;
+        text-decoration: line-through;
+    }
+
+    .package-option b {
+        font-size: 1.2em;
+        color: #10aa10;
+        font-weight: normal;
+    }
+
+    .package-option br {
+        height: 0;
+    }
+
+#early-transportation {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid aliceblue;
+    margin-bottom: 2em;
+}
+
+    #early-transportation span {
+        font-family: system-ui;
+        font-size: 1.25em;
+        color: #498192;
+        margin-right: 0.5em;
+    }
+
+.numberSpinner {
+    margin: 0.5em;
+    display: table-cell;
+    text-align: center;
+    width: 33%;
+    font-size: 1em;
+}
+
+.package-option {
+    display: table;
+    width: 100%;
+}
+
+.numberSpinner section {
+    position: relative;
+    overflow: hidden;
+    width: 2.25em;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid;
+}
+
+.price-details {
+    display: table-cell;
+    width: 66%;
+}
+
+.package-option p {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.package-option b {
+    font-size: 1em;
+    color: #006c9c;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.package-option span {
+    text-decoration: none;
+}
+
+.numberSpinner input[type="number"] {
+    font-size: 1em;
+    width: 3em;
+    padding: 0.25em 0em 0.25em 0.6em;
+    border: 0;
+    color: darkblue;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+.numberSpinner button {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.25em;
+    width: 1.5em;
+    height: 1em;
+    padding: 0.75em 0;
+    line-height: 0em;
+    text-align: center;
+    border: 0;
+    font-weight: bold;
+    background-color: #498192;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .numberSpinner button:hover {
+        opacity: 0.7;
+    }
+
+    .numberSpinner button:active {
+        background-color: gold;
+    }
+
+#screen-2 select {
+    padding: 0.5em;
+    border: 0.15em solid #006c9c;
+    font-size: 1.05em;
+    display: block;
+    width: 100%;
+    max-width: 20em;
+    margin: 1em auto;
+}
+
+#screen-2 b {
+    font-family: system-ui;
+}
+
+#screen-2 p {
+    font-family: system-ui;
+}
+/*====================================*/
+
+#participants {
+    font-family: system-ui;
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+.participant {
+    padding: 0.5em;
+    text-align: right;
+    border-bottom: 0.15em solid aliceblue;
+}
+
+    .participant label {
+        color: #006c9c;
+    }
+
+    .participant label, .participant input {
+        display: inline-block;
+        vertical-align: top;
+        text-transform: capitalize;
+        margin: 0.5em;
+        text-align: left;
+        font-weight: bold;
+    }
+
+.input-age, .input-name {
+    padding: 0.5em;
+    border: 0.15em solid #006c9c;
+    font-size: 1em;
+}
+
+.participant .input-age, .participant label[for="age"] {
+    width: 20%;
+}
+
+.participant .input-name, .participant label[for="name"] {
+    width: 71.6%;
+}
+
+.total {
+    text-transform: capitalize;
+    padding: 1em;
+}
+
+.removeBtn {
+    font-size: 1em;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0.25em;
+    border: 2px solid;
+    background: none;
+    border-radius: 50%;
+}
+
+.participant-input {
+    padding: 0.5em;
+    border: 0.15em solid #006c9c;
+    font-size: 1.05em;
+    display: block;
+    width: 100%;
+    max-width: 20em;
+    margin: 1em auto;
+    background-color: #e9e9ed;
+    font-family: system-ui;
+}
+
+#total {
+    font-size: 2em;
+    color: #10aa10;
+}
+
+#carrierInput {
+    border: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+#terms-conditions p {
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: middle;
+    max-width: 90%;
+    padding: 1em;
+    text-align: justify;
+}
+
+#terms-conditions p {
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+
+#terms-conditions input {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#terms-check {
+    display: inline-block;
+    max-width: 20em;
+    text-transform: capitalize;
+}
+
+@media(max-width:450px) {
+    #datepicker {
+        font-size: 0.8em;
+    }
+
+    .numberSpinner {
+        display: inline-block;
+        width: 49%;
+        margin: 0;
+        vertical-align: middle;
+        font-size: 1.25em;
+        margin-bottom: 1em;
+    }
+
+    .price-details {
+        display: inline-block;
+        width: 49%;
+        vertical-align: middle;
+    }
+
+    .package-option p,
+    .package-option b {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
