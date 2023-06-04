@@ -194,7 +194,7 @@ try {
      createSilverPrice(document.getElementsByClassName("silver-package-price")[1],"$145.55");
      createSilverPrice(document.getElementsByClassName("silver-package-price")[2],"$124.61");
 } catch (error) {
-    
+    console.log(error);
 }
 
 //======================================================================////======================================================================//
@@ -466,6 +466,6 @@ try {
     beforePriceSilver[1].innerHTML = "$145.55";
     beforePriceSilver[2].innerHTML = "$124.61";  
 } catch (error) {
-    
+    console.log(error);
 }
 //======================================================================////======================================================================//
