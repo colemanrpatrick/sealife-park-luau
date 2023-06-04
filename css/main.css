@@ -431,7 +431,7 @@ footer h4 {
 	color: white;
 	font-size: 1.05em;
 	background-color:rgba(0,0,0,0.75);
-	border-radius: 50%;
+	border-radius: 1%;
 	border: 0.25em solid skyblue;
 }
 #callin-desktop p{
@@ -1623,14 +1623,16 @@ footer a:hover {
 }
 .silver-prices p {
   color: #afb1b3;
+	font-size: 1em;
 }
 .silver-prices p span {
   font-size: 1em;
   text-decoration: line-through;
 }
-.silver-package-price {
+.silver-before {
   display: block;
   color: #b3b3c8;
+	font-size: 0.95em !important;
   text-decoration: line-through !important;
 }
 
