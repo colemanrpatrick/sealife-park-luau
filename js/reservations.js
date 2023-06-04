@@ -183,15 +183,20 @@ function setscreen2(arg) {
 //    item.insertBefore(beforePrice,item.firstElementChild.nextElementSibling);
 // });
 
+try {
     let createSilverPrice = (silverPrice,discount) => {
-       let beforePrice;
-       beforePrice = document.createElement("p");
-       beforePrice.innerHTML = "<span class='silver-before'>" + discount + "</span>";
-       silverPrice.parentElement.insertBefore(beforePrice,silverPrice)
-    };
-    createSilverPrice(document.getElementsByClassName("silver-package-price")[0],"$166.49");
-    createSilverPrice(document.getElementsByClassName("silver-package-price")[1],"$145.55");
-    createSilverPrice(document.getElementsByClassName("silver-package-price")[2],"$124.61");
+        let beforePrice;
+        beforePrice = document.createElement("p");
+        beforePrice.innerHTML = "<span class='silver-before'>" + discount + "</span>";
+        silverPrice.parentElement.insertBefore(beforePrice,silverPrice)
+     };
+     createSilverPrice(document.getElementsByClassName("silver-package-price")[0],"$166.49");
+     createSilverPrice(document.getElementsByClassName("silver-package-price")[1],"$145.55");
+     createSilverPrice(document.getElementsByClassName("silver-package-price")[2],"$124.61");
+} catch (error) {
+    
+}
+
 //======================================================================////======================================================================//
 
     var transportationInputName;
@@ -443,18 +448,24 @@ Array.prototype.forEach.call(packages, function (item, index) {
 //======================================================================////======================================================================//
 // temp: remove at the end of promotion;
 //======================================================================////======================================================================//
-let silverPackagePrices = document.querySelectorAll("#silver-package ul li p");
 
-Array.prototype.forEach.call(silverPackagePrices, function (item, index) {
-    item.setAttribute("class","silver-prices");
-    let beforePrice;
-    beforePrice = document.createElement("p");
-    beforePrice.innerHTML = "<span class='silver-before'></span>";
-   item.insertBefore(beforePrice,item.firstElementChild.nextElementSibling);
-});
 
-let beforePriceSilver = document.getElementsByClassName("silver-before");
-beforePriceSilver[0].innerHTML = "$166.49";
-beforePriceSilver[1].innerHTML = "$145.55";
-beforePriceSilver[2].innerHTML = "$124.61";
+try {
+    let silverPackagePrices = document.querySelectorAll("#silver-package ul li p");
+
+    Array.prototype.forEach.call(silverPackagePrices, function (item, index) {
+        item.setAttribute("class","silver-prices");
+        let beforePrice;
+        beforePrice = document.createElement("p");
+        beforePrice.innerHTML = "<span class='silver-before'></span>";
+       item.insertBefore(beforePrice,item.firstElementChild.nextElementSibling);
+    });
+    
+    let beforePriceSilver = document.getElementsByClassName("silver-before");
+    beforePriceSilver[0].innerHTML = "$166.49";
+    beforePriceSilver[1].innerHTML = "$145.55";
+    beforePriceSilver[2].innerHTML = "$124.61";  
+} catch (error) {
+    
+}
 //======================================================================////======================================================================//
